@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="komarugif/style.css">
+  <title>Komaru ~ GIF</title>
+</head>
+<body>
+  <img class="arrow" src="komarugif/arrow.svg" alt="" width="40" height="40">
+  <a href="tg://resolve?domain=komaru_GIF" id="link">x</a>
+  <div class="container">
+    <br>
+    <div class="content">
+      <h3>Добро пожаловать в Komaru ~ GIF</h3>
+      <div>Уютный телеграм канал с гифками, мемами и авторскими работами кошек Комару, Кокоа, Комуги</div>
+      <br>
+      <div>Чтобы попасть в него, нужно проделать несколько шагов:</div>
+    
+      <ol class="list">
+        <li>Нажать на три точки ••• в правом верхнем углу</li>
+        <li>Нажать на кнопку "Открыть в браузере"</li>
+        <li>Готово! Ты попал в семью <b>Komaru ~ GIF</b></li>
+      </ol>
+
+    </div>
+
+    <div class="video-container">
+    <video src="komarugif/komaru.mp4" muted loop autoplay></video>
+
+    </div>
+  </div>
+
+  <script>
+    window.onload = function() {
+      if (navigator.userAgent.includes('musical_ly')) return
+      document.getElementById('link').click()
+    }
+  </script>
+</body>
+</html>
